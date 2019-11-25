@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:700|Quicksand&display=swap" rel="stylesheet">
+
+        <title>Message Screen</title>
+    </head>
+
+    <body id='body'>
+        <div class="container">
+
+            <!-- Section1 : Message Header -->
+            <section id="header" class="msg-header">
+                <div class="header-img">
+                    <img style="width:60px; height:60px; cursor: pointer; border-radius: 50%" src="./img/Image3.jpeg" alt="profile_pic">
+                </div>
+
+                <div class="active">
+                    <h4>AniKesh</h4>
+                    <h6>3 hours ago...</h6>
+                </div>
+
+                <div class="header-icons">
+                    <a href=""><i class="fa fa-phone head-link"></i></a>
+                    <a href=""><i class="fa fa-video-camera head-link"></i></a>
+                    <div class="info-link">
+                            <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                            <div class="list">
+                                <ul>
+                                    <li class="list-elem"><a id="list-link1" class="list-link" href="">View</a></li>
+                                    <li class="mode"><a id="list-link2" class="list-link" href="">Media</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section2 : Message Body -->
+            <section class="msg-inbox">
+                <div class="chats">
+                    
+                    <div class="recieved-msg">
+                        <div class="recieved-msg-img">
+                            <img style="width:20px; height:20px; border-radius: 50%" src="./img/Image3.jpeg" alt="profile_pic">
+                        </div>
+                        <div class="r-msg">
+                            <p>Hii !! It's Anikesh Thakur here. How you doin?</p>
+                            <span class="time">01:08 AM | November 25</span>
+                        </div>
+                    </div>
+
+                    <div class="sent-msg">
+                        <div class="s-msg">
+                            <p id="s-msg1">Hello, Anikesh Thakur. I'm fine.</p>
+                            <span class="time">01:09 AM | November 25</span>
+                        </div>
+                        <div class="recieved-msg-img">
+                            <img style="width:20px; height:20px; border-radius: 50%" src="./img/Image4.jpeg" alt="profile_pic">
+                        </div>
+                    </div>
+
+                    <div class="recieved-msg">
+                        <div class="recieved-msg-img">
+                            <img style="width:20px; height:20px; border-radius: 50%" src="./img/Image3.jpeg" alt="profile_pic">
+                        </div>
+                        <div class="r-msg">
+                            <p>Wanna go surfing tommorow.</p>
+                            <span class="time">01:08 AM | November 25</span>
+                        </div>
+                    </div>
+
+                    <div class="sent-msg">
+                        <div class="s-msg">
+                            <p id="s-msg2">You tell me, last time you cancelled the whole plan</p>
+                            <span class="time">01:09 AM | November 25</span>
+                        </div>
+                        <div class="recieved-msg-img">
+                            <img style="width:20px; height:20px; border-radius: 50%" src="./img/Image4.jpeg" alt="profile_pic">
+                        </div>
+                    </div>
+
+                    <div class="recieved-msg">
+                        <div class="recieved-msg-img">
+                            <img style="width:20px; height:20px; border-radius: 50%" src="./img/Image3.jpeg" alt="profile_pic">
+                        </div>
+                        <div class="r-msg">
+                            <p>Well, I had cold last time. Don't you know?</p>
+                            <span class="time">01:08 AM | November 25</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Section3 : Footer -->
+            <section id="footer" class="msg-footer">
+                <div class="footer-icon">
+                    <a href=""><i class="fa fa-plus-circle foot-link"></i></a>
+                    <a href=""><i class="fa fa-camera foot-link"></i></a>
+                    <a href=""><i class="fa fa-microphone foot-link"></i></a>
+                    <a href=""><i class="fa fa-smile-o foot-link"></i></a>
+                </div>
+                <div class="input-feild">
+                    <div class="text-input">
+                        <input type="text" class="form-control" placeholder="write a message.. ">
+                    </div>
+                    <div class="send-logo">
+                        <a href=""><i id="sent" class="fa fa-paper-plane foot-link sent-logo"></i></a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="dark-mode">
+            <p>Switch to Dark mode</p>
+            <button class="dark" onclick="dark()">Dark</button>
+            <p class='para'>Note: In order to get the old design back, you need to refresh the page.. :)</p>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
