@@ -254,7 +254,7 @@
 
 @media (max-width: 430px){
     .container{
-        width: 330px;
+        width: 380px;
     }
 
     .msg-header{
@@ -311,7 +311,7 @@
 
 @media (max-width: 320px){
     .container{
-        width: 280px;
+        width: 320px;
     }
 
     .msg-header{
